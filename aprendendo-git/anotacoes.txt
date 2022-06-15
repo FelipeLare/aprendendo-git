@@ -1,0 +1,70 @@
+(git --version) : Para saner se o git está instalado e qual a sua versão.
+
+(git config --global user.email 'SEU EMAIL') : Para inserir seu email ou nome.
+		-- global : Para a máquina toda.
+		-- local : Para o projeto atual.
+
+(git init) : Para iniciar um repositório git vazio na pasta.
+
+(git status) : Para mostrar a situação atual do repositório.
+
+(git add NOME DO ARQUIVO) : Para adicionar alterações ao conteiner que será enviado. Pode-se substituir o nome do arquivo por " . " 
+					       para adicionar todas as alterações de todos os arquivos da pasta que serão commitados.
+					      ( o comando avisa pro git a existencia do arquivo)
+
+(git commit -m "mensagem") : Para commitar tudo que foi add.
+					aperte 'q' ou 'wq' para sair desse modo.
+
+(git log) : Para mostrar todos os commits feitos.
+
+(git diff) : Para comparar e mostrar a diferença do arquivo anterior e a alteração feita no mesmo arquivo.
+
+(gi NOME DO COMANDO -h) : Para ter ajuda com qualquer comando.
+
+(git branch) : Para listar todos os branch que existem no momento.
+
+(git checkout NOME DOBRANCH) : Para trocar de branch.
+						(adicione "-b NOME DO BRANCH" no final do comando para trocar de branch já criando um novo branch)
+
+(git checkout -- NOME DO ARQUIVO) : Para desfazer alterações feitas no arquivo que ainda não foram add.
+
+(git reset --hard/soft id) : Para voltar para um estado anterior do arquivo.
+				  (hard) : Apaga e não tem volta.
+				 (soft) : Apaga porém reversível.
+				  (use git log para achar o id do commit que deseja retornar).
+
+(git merge NOME DO BRACH) : Para fazer o merge do branch em outro.
+
+(git branch -d NOME DO BRANCH) : Para deletar o branch.
+
+( git stash) : Serve como uma caixa secreta que não é o conteiner. Pode adicionar o quanto quiser e resgatar quando quiser.
+		list : para listar todos.
+		apply: para resgatar, porém mantendo a cópia na caixa secreta.
+		pop: para resgatar da caixa secreta e deletando da caixa ao mesmo tempo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
